@@ -1,0 +1,76 @@
+[
+  {
+    "shortDescription" : "sklearn.svm.LinearSVC.html",
+    "metadataOutputVersion" : "3.0",
+    "outputSchema" : [
+      {
+        "isOptional" : "0",
+        "formattedType" : "String",
+        "type" : "String",
+        "name" : "classLabel",
+        "shortDescription" : "The most likely polarity (positive or negative), for the given input."
+      },
+      {
+        "isOptional" : "0",
+        "keyType" : "String",
+        "formattedType" : "Dictionary (String → Double)",
+        "type" : "Dictionary",
+        "name" : "classProbability",
+        "shortDescription" : "The probabilities for each class label, for the given input."
+      }
+    ],
+    "version" : "--",
+    "modelParameters" : [
+
+    ],
+    "author" : "Arvind Singh",
+    "specificationVersion" : 1,
+    "license" : "MIT",
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "10.13",
+      "tvOS" : "11.0",
+      "watchOS" : "4.0",
+      "iOS" : "11.0",
+      "macCatalyst" : "11.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_pipelineClassifier",
+      "structure" : [
+        {
+          "name" : "MLModelType_pipeline",
+          "structure" : [
+            {
+              "name" : "MLModelType_dictVectorizer"
+            },
+            {
+              "name" : "MLModelType_featureVectorizer"
+            }
+          ]
+        },
+        {
+          "name" : "MLModelType_glmClassifier"
+        }
+      ]
+    },
+    "inputSchema" : [
+      {
+        "isOptional" : "0",
+        "keyType" : "String",
+        "formattedType" : "Dictionary (String → Double)",
+        "type" : "Dictionary",
+        "name" : "input",
+        "shortDescription" : "Features extracted from the text."
+      }
+    ],
+    "classLabels" : [
+      "Neg",
+      "Pos"
+    ],
+    "generatedClassName" : "SentimentPolarity",
+    "userDefinedMetadata" : {
+
+    },
+    "method" : "predict"
+  }
+]
