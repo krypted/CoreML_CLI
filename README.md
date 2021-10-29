@@ -4,11 +4,11 @@ Run machine learning models on a string using CoreML
 # commandLineSentimentClassifier Project
 Runs sentiment analysis on a string using a command run from Swift. For example:
 
-`swift run commandLineSentimentClassifier "It was a horrible movie"`
+`swift run commandLineSentimentClassifier "Dune was a horrible movie"`
 
 or
 
-`swift run commandLineSentimentClassifier "It was a great movie"`
+`swift run commandLineSentimentClassifier "Dune was a great movie"`
 
 # Model
 The ai model file used is SentimentPolarity.mlmodelc. This file was created using scikit learn python package and the model is described here https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html
