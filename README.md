@@ -22,3 +22,6 @@ To enable use in command line package, the .mlpackage file was compiled into .ml
 `xcrun coremlcompiler generate SenteimentPolarity.mlpackage . --language Swift`
 
 Then added the .mlmodelc file to the package dependencies. The CoreML model is called for inference in main.swift file.
+
+# Feelings
+This super-power has now been replaced with a very small shell script.
