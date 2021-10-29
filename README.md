@@ -5,7 +5,9 @@ Run machine learning models on a string using CoreML
 Runs sentiment analysis on a string using a command run from Swift. For example:
 
 `swift run commandLineSentimentClassifier "It was a horrible movie"`
+
 or
+
 `swift run commandLineSentimentClassifier "It was a great movie"`
 
 # Model
@@ -16,6 +18,7 @@ The scikit model was converted into .mlpackage (COREML supported model format) u
 To enable use in command line package, the .mlpackage file was compiled into .mlmodelc and corresponding class files using commands:
 
 `xcrun coremlcompiler compile SentimentPolarity.mlpackage . `
+
 `xcrun coremlcompiler generate SenteimentPolarity.mlpackage . --language Swift`
 
 Then added the .mlmodelc file to the package dependencies. The CoreML model is called for inference in main.swift file.
