@@ -1,0 +1,1072 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"LightWeightCategorizer::LightWeightCategorizerPackageTests::ProductTarget" /* LightWeightCategorizerPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_139 /* Build configuration list for PBXAggregateTarget "LightWeightCategorizerPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_142 /* PBXTargetDependency */,
+			);
+			name = LightWeightCategorizerPackageTests;
+			productName = LightWeightCategorizerPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		OBJ_100 /* SplitArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* SplitArguments.swift */; };
+		OBJ_101 /* DumpHelpGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* DumpHelpGenerator.swift */; };
+		OBJ_102 /* HelpCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* HelpCommand.swift */; };
+		OBJ_103 /* HelpGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* HelpGenerator.swift */; };
+		OBJ_104 /* MessageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* MessageInfo.swift */; };
+		OBJ_105 /* UsageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* UsageGenerator.swift */; };
+		OBJ_106 /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* CollectionExtensions.swift */; };
+		OBJ_107 /* SequenceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* SequenceExtensions.swift */; };
+		OBJ_108 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* StringExtensions.swift */; };
+		OBJ_109 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* Tree.swift */; };
+		OBJ_111 /* ArgumentParserToolInfo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-argument-parser::ArgumentParserToolInfo::Product" /* ArgumentParserToolInfo.framework */; };
+		OBJ_118 /* ToolInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* ToolInfo.swift */; };
+		OBJ_125 /* DocumentCategorizer_LinearSVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* DocumentCategorizer_LinearSVC.swift */; };
+		OBJ_126 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* main.swift */; };
+		OBJ_128 /* ArgumentParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-argument-parser::ArgumentParser::Product" /* ArgumentParser.framework */; };
+		OBJ_129 /* ArgumentParserToolInfo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-argument-parser::ArgumentParserToolInfo::Product" /* ArgumentParserToolInfo.framework */; };
+		OBJ_137 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_148 /* LightWeightCategorizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* LightWeightCategorizerTests.swift */; };
+		OBJ_150 /* ArgumentParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-argument-parser::ArgumentParser::Product" /* ArgumentParser.framework */; };
+		OBJ_151 /* ArgumentParserToolInfo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-argument-parser::ArgumentParserToolInfo::Product" /* ArgumentParserToolInfo.framework */; };
+		OBJ_160 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* Package.swift */; };
+		OBJ_73 /* BashCompletionsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* BashCompletionsGenerator.swift */; };
+		OBJ_74 /* CompletionsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* CompletionsGenerator.swift */; };
+		OBJ_75 /* FishCompletionsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* FishCompletionsGenerator.swift */; };
+		OBJ_76 /* ZshCompletionsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* ZshCompletionsGenerator.swift */; };
+		OBJ_77 /* Argument.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Argument.swift */; };
+		OBJ_78 /* ArgumentHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* ArgumentHelp.swift */; };
+		OBJ_79 /* CompletionKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* CompletionKind.swift */; };
+		OBJ_80 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Errors.swift */; };
+		OBJ_81 /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Flag.swift */; };
+		OBJ_82 /* NameSpecification.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* NameSpecification.swift */; };
+		OBJ_83 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Option.swift */; };
+		OBJ_84 /* OptionGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* OptionGroup.swift */; };
+		OBJ_85 /* CommandConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* CommandConfiguration.swift */; };
+		OBJ_86 /* EnumerableFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* EnumerableFlag.swift */; };
+		OBJ_87 /* ExpressibleByArgument.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* ExpressibleByArgument.swift */; };
+		OBJ_88 /* ParsableArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* ParsableArguments.swift */; };
+		OBJ_89 /* ParsableArgumentsValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* ParsableArgumentsValidation.swift */; };
+		OBJ_90 /* ParsableCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* ParsableCommand.swift */; };
+		OBJ_91 /* ArgumentDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* ArgumentDecoder.swift */; };
+		OBJ_92 /* ArgumentDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* ArgumentDefinition.swift */; };
+		OBJ_93 /* ArgumentSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* ArgumentSet.swift */; };
+		OBJ_94 /* CommandParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* CommandParser.swift */; };
+		OBJ_95 /* InputOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* InputOrigin.swift */; };
+		OBJ_96 /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* Name.swift */; };
+		OBJ_97 /* Parsed.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* Parsed.swift */; };
+		OBJ_98 /* ParsedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* ParsedValues.swift */; };
+		OBJ_99 /* ParserError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* ParserError.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4FA5A7A27326F1D00C4DC2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "swift-argument-parser::ArgumentParser";
+			remoteInfo = ArgumentParser;
+		};
+		A4FA5A7B27326F1D00C4DC2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "swift-argument-parser::ArgumentParserToolInfo";
+			remoteInfo = ArgumentParserToolInfo;
+		};
+		A4FA5A7C27326F1D00C4DC2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "swift-argument-parser::ArgumentParserToolInfo";
+			remoteInfo = ArgumentParserToolInfo;
+		};
+		A4FA5A7D27326F1D00C4DC2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "LightWeightCategorizer::LightWeightCategorizer";
+			remoteInfo = LightWeightCategorizer;
+		};
+		A4FA5A7E27326F1D00C4DC2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "swift-argument-parser::ArgumentParser";
+			remoteInfo = ArgumentParser;
+		};
+		A4FA5A7F27326F1D00C4DC2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "swift-argument-parser::ArgumentParserToolInfo";
+			remoteInfo = ArgumentParserToolInfo;
+		};
+		A4FA5A8027326F1D00C4DC2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "LightWeightCategorizer::LightWeightCategorizerTests";
+			remoteInfo = LightWeightCategorizerTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4FA5A8127326F9B00C4DC2B /* DocumentCategorizer_LinearSVC.mlmodelc */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DocumentCategorizer_LinearSVC.mlmodelc; path = Sources/LightWeightCategorizer/DocumentCategorizer_LinearSVC.mlmodelc; sourceTree = "<group>"; };
+		A4FA5A8527327E3100C4DC2B /* Idf.json  */ = {isa = PBXFileReference; lastKnownFileType = text; name = "Idf.json "; path = "Sources/LightWeightCategorizer/Resources/Idf.json "; sourceTree = "<group>"; };
+		"LightWeightCategorizer::LightWeightCategorizer::Product" /* LightWeightCategorizer */ = {isa = PBXFileReference; lastKnownFileType = text; path = LightWeightCategorizer; sourceTree = BUILT_PRODUCTS_DIR; };
+		"LightWeightCategorizer::LightWeightCategorizerTests::Product" /* LightWeightCategorizerTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = LightWeightCategorizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_13 /* LightWeightCategorizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightWeightCategorizerTests.swift; sourceTree = "<group>"; };
+		OBJ_18 /* BashCompletionsGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BashCompletionsGenerator.swift; sourceTree = "<group>"; };
+		OBJ_19 /* CompletionsGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionsGenerator.swift; sourceTree = "<group>"; };
+		OBJ_20 /* FishCompletionsGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishCompletionsGenerator.swift; sourceTree = "<group>"; };
+		OBJ_21 /* ZshCompletionsGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZshCompletionsGenerator.swift; sourceTree = "<group>"; };
+		OBJ_23 /* Argument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Argument.swift; sourceTree = "<group>"; };
+		OBJ_24 /* ArgumentHelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentHelp.swift; sourceTree = "<group>"; };
+		OBJ_25 /* CompletionKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionKind.swift; sourceTree = "<group>"; };
+		OBJ_26 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		OBJ_27 /* Flag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flag.swift; sourceTree = "<group>"; };
+		OBJ_28 /* NameSpecification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameSpecification.swift; sourceTree = "<group>"; };
+		OBJ_29 /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		OBJ_30 /* OptionGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionGroup.swift; sourceTree = "<group>"; };
+		OBJ_32 /* CommandConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandConfiguration.swift; sourceTree = "<group>"; };
+		OBJ_33 /* EnumerableFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumerableFlag.swift; sourceTree = "<group>"; };
+		OBJ_34 /* ExpressibleByArgument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressibleByArgument.swift; sourceTree = "<group>"; };
+		OBJ_35 /* ParsableArguments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsableArguments.swift; sourceTree = "<group>"; };
+		OBJ_36 /* ParsableArgumentsValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsableArgumentsValidation.swift; sourceTree = "<group>"; };
+		OBJ_37 /* ParsableCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsableCommand.swift; sourceTree = "<group>"; };
+		OBJ_39 /* ArgumentDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentDecoder.swift; sourceTree = "<group>"; };
+		OBJ_40 /* ArgumentDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentDefinition.swift; sourceTree = "<group>"; };
+		OBJ_41 /* ArgumentSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentSet.swift; sourceTree = "<group>"; };
+		OBJ_42 /* CommandParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandParser.swift; sourceTree = "<group>"; };
+		OBJ_43 /* InputOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputOrigin.swift; sourceTree = "<group>"; };
+		OBJ_44 /* Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
+		OBJ_45 /* Parsed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parsed.swift; sourceTree = "<group>"; };
+		OBJ_46 /* ParsedValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsedValues.swift; sourceTree = "<group>"; };
+		OBJ_47 /* ParserError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserError.swift; sourceTree = "<group>"; };
+		OBJ_48 /* SplitArguments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitArguments.swift; sourceTree = "<group>"; };
+		OBJ_50 /* DumpHelpGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DumpHelpGenerator.swift; sourceTree = "<group>"; };
+		OBJ_51 /* HelpCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCommand.swift; sourceTree = "<group>"; };
+		OBJ_52 /* HelpGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpGenerator.swift; sourceTree = "<group>"; };
+		OBJ_53 /* MessageInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageInfo.swift; sourceTree = "<group>"; };
+		OBJ_54 /* UsageGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageGenerator.swift; sourceTree = "<group>"; };
+		OBJ_56 /* CollectionExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExtensions.swift; sourceTree = "<group>"; };
+		OBJ_57 /* SequenceExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceExtensions.swift; sourceTree = "<group>"; };
+		OBJ_58 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		OBJ_59 /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_61 /* ToolInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolInfo.swift; sourceTree = "<group>"; };
+		OBJ_62 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/arvind/upwork/charles/LightWeightCategorizer/.build/checkouts/swift-argument-parser/Package.swift"; sourceTree = "<group>"; };
+		OBJ_9 /* DocumentCategorizer_LinearSVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentCategorizer_LinearSVC.swift; sourceTree = "<group>"; };
+		"swift-argument-parser::ArgumentParser::Product" /* ArgumentParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ArgumentParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-argument-parser::ArgumentParserToolInfo::Product" /* ArgumentParserToolInfo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ArgumentParserToolInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_111 /* ArgumentParserToolInfo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_128 /* ArgumentParser.framework in Frameworks */,
+				OBJ_129 /* ArgumentParserToolInfo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_150 /* ArgumentParser.framework in Frameworks */,
+				OBJ_151 /* ArgumentParserToolInfo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4FA5A8427327E3000C4DC2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4FA5A8527327E3100C4DC2B /* Idf.json  */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		OBJ_11 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_12 /* LightWeightCategorizerTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_12 /* LightWeightCategorizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_13 /* LightWeightCategorizerTests.swift */,
+			);
+			name = LightWeightCategorizerTests;
+			path = Tests/LightWeightCategorizerTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_14 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_15 /* swift-argument-parser 1.0.1 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_15 /* swift-argument-parser 1.0.1 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_16 /* ArgumentParser */,
+				OBJ_60 /* ArgumentParserToolInfo */,
+				OBJ_62 /* Package.swift */,
+			);
+			name = "swift-argument-parser 1.0.1";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_16 /* ArgumentParser */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_17 /* Completions */,
+				OBJ_22 /* Parsable Properties */,
+				OBJ_31 /* Parsable Types */,
+				OBJ_38 /* Parsing */,
+				OBJ_49 /* Usage */,
+				OBJ_55 /* Utilities */,
+			);
+			name = ArgumentParser;
+			path = ".build/checkouts/swift-argument-parser/Sources/ArgumentParser";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_17 /* Completions */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_18 /* BashCompletionsGenerator.swift */,
+				OBJ_19 /* CompletionsGenerator.swift */,
+				OBJ_20 /* FishCompletionsGenerator.swift */,
+				OBJ_21 /* ZshCompletionsGenerator.swift */,
+			);
+			path = Completions;
+			sourceTree = "<group>";
+		};
+		OBJ_22 /* Parsable Properties */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_23 /* Argument.swift */,
+				OBJ_24 /* ArgumentHelp.swift */,
+				OBJ_25 /* CompletionKind.swift */,
+				OBJ_26 /* Errors.swift */,
+				OBJ_27 /* Flag.swift */,
+				OBJ_28 /* NameSpecification.swift */,
+				OBJ_29 /* Option.swift */,
+				OBJ_30 /* OptionGroup.swift */,
+			);
+			path = "Parsable Properties";
+			sourceTree = "<group>";
+		};
+		OBJ_31 /* Parsable Types */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_32 /* CommandConfiguration.swift */,
+				OBJ_33 /* EnumerableFlag.swift */,
+				OBJ_34 /* ExpressibleByArgument.swift */,
+				OBJ_35 /* ParsableArguments.swift */,
+				OBJ_36 /* ParsableArgumentsValidation.swift */,
+				OBJ_37 /* ParsableCommand.swift */,
+			);
+			path = "Parsable Types";
+			sourceTree = "<group>";
+		};
+		OBJ_38 /* Parsing */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_39 /* ArgumentDecoder.swift */,
+				OBJ_40 /* ArgumentDefinition.swift */,
+				OBJ_41 /* ArgumentSet.swift */,
+				OBJ_42 /* CommandParser.swift */,
+				OBJ_43 /* InputOrigin.swift */,
+				OBJ_44 /* Name.swift */,
+				OBJ_45 /* Parsed.swift */,
+				OBJ_46 /* ParsedValues.swift */,
+				OBJ_47 /* ParserError.swift */,
+				OBJ_48 /* SplitArguments.swift */,
+			);
+			path = Parsing;
+			sourceTree = "<group>";
+		};
+		OBJ_49 /* Usage */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_50 /* DumpHelpGenerator.swift */,
+				OBJ_51 /* HelpCommand.swift */,
+				OBJ_52 /* HelpGenerator.swift */,
+				OBJ_53 /* MessageInfo.swift */,
+				OBJ_54 /* UsageGenerator.swift */,
+			);
+			path = Usage;
+			sourceTree = "<group>";
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				A4FA5A8127326F9B00C4DC2B /* DocumentCategorizer_LinearSVC.mlmodelc */,
+				OBJ_7 /* Sources */,
+				OBJ_11 /* Tests */,
+				OBJ_14 /* Dependencies */,
+				OBJ_63 /* Products */,
+				A4FA5A8427327E3000C4DC2B /* Frameworks */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_55 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_56 /* CollectionExtensions.swift */,
+				OBJ_57 /* SequenceExtensions.swift */,
+				OBJ_58 /* StringExtensions.swift */,
+				OBJ_59 /* Tree.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		OBJ_60 /* ArgumentParserToolInfo */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_61 /* ToolInfo.swift */,
+			);
+			name = ArgumentParserToolInfo;
+			path = ".build/checkouts/swift-argument-parser/Sources/ArgumentParserToolInfo";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"swift-argument-parser::ArgumentParser::Product" /* ArgumentParser.framework */,
+				"swift-argument-parser::ArgumentParserToolInfo::Product" /* ArgumentParserToolInfo.framework */,
+				"LightWeightCategorizer::LightWeightCategorizer::Product" /* LightWeightCategorizer */,
+				"LightWeightCategorizer::LightWeightCategorizerTests::Product" /* LightWeightCategorizerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* LightWeightCategorizer */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* LightWeightCategorizer */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* DocumentCategorizer_LinearSVC.swift */,
+				OBJ_10 /* main.swift */,
+			);
+			name = LightWeightCategorizer;
+			path = Sources/LightWeightCategorizer;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"LightWeightCategorizer::LightWeightCategorizer" /* LightWeightCategorizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_121 /* Build configuration list for PBXNativeTarget "LightWeightCategorizer" */;
+			buildPhases = (
+				OBJ_124 /* Sources */,
+				OBJ_127 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_130 /* PBXTargetDependency */,
+				OBJ_131 /* PBXTargetDependency */,
+			);
+			name = LightWeightCategorizer;
+			productName = LightWeightCategorizer;
+			productReference = "LightWeightCategorizer::LightWeightCategorizer::Product" /* LightWeightCategorizer */;
+			productType = "com.apple.product-type.tool";
+		};
+		"LightWeightCategorizer::LightWeightCategorizerTests" /* LightWeightCategorizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_144 /* Build configuration list for PBXNativeTarget "LightWeightCategorizerTests" */;
+			buildPhases = (
+				OBJ_147 /* Sources */,
+				OBJ_149 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_152 /* PBXTargetDependency */,
+				OBJ_153 /* PBXTargetDependency */,
+				OBJ_154 /* PBXTargetDependency */,
+			);
+			name = LightWeightCategorizerTests;
+			productName = LightWeightCategorizerTests;
+			productReference = "LightWeightCategorizer::LightWeightCategorizerTests::Product" /* LightWeightCategorizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"LightWeightCategorizer::SwiftPMPackageDescription" /* LightWeightCategorizerPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_133 /* Build configuration list for PBXNativeTarget "LightWeightCategorizerPackageDescription" */;
+			buildPhases = (
+				OBJ_136 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightWeightCategorizerPackageDescription;
+			productName = LightWeightCategorizerPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"swift-argument-parser::ArgumentParser" /* ArgumentParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_69 /* Build configuration list for PBXNativeTarget "ArgumentParser" */;
+			buildPhases = (
+				OBJ_72 /* Sources */,
+				OBJ_110 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_112 /* PBXTargetDependency */,
+			);
+			name = ArgumentParser;
+			productName = ArgumentParser;
+			productReference = "swift-argument-parser::ArgumentParser::Product" /* ArgumentParser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"swift-argument-parser::ArgumentParserToolInfo" /* ArgumentParserToolInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_114 /* Build configuration list for PBXNativeTarget "ArgumentParserToolInfo" */;
+			buildPhases = (
+				OBJ_117 /* Sources */,
+				OBJ_119 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArgumentParserToolInfo;
+			productName = ArgumentParserToolInfo;
+			productReference = "swift-argument-parser::ArgumentParserToolInfo::Product" /* ArgumentParserToolInfo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"swift-argument-parser::SwiftPMPackageDescription" /* swift-argument-parserPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_156 /* Build configuration list for PBXNativeTarget "swift-argument-parserPackageDescription" */;
+			buildPhases = (
+				OBJ_159 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swift-argument-parserPackageDescription";
+			productName = "swift-argument-parserPackageDescription";
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "LightWeightCategorizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"swift-argument-parser::ArgumentParser" /* ArgumentParser */,
+				"swift-argument-parser::ArgumentParserToolInfo" /* ArgumentParserToolInfo */,
+				"LightWeightCategorizer::LightWeightCategorizer" /* LightWeightCategorizer */,
+				"LightWeightCategorizer::SwiftPMPackageDescription" /* LightWeightCategorizerPackageDescription */,
+				"LightWeightCategorizer::LightWeightCategorizerPackageTests::ProductTarget" /* LightWeightCategorizerPackageTests */,
+				"LightWeightCategorizer::LightWeightCategorizerTests" /* LightWeightCategorizerTests */,
+				"swift-argument-parser::SwiftPMPackageDescription" /* swift-argument-parserPackageDescription */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_118 /* ToolInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_125 /* DocumentCategorizer_LinearSVC.swift in Sources */,
+				OBJ_126 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_137 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_148 /* LightWeightCategorizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_160 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_73 /* BashCompletionsGenerator.swift in Sources */,
+				OBJ_74 /* CompletionsGenerator.swift in Sources */,
+				OBJ_75 /* FishCompletionsGenerator.swift in Sources */,
+				OBJ_76 /* ZshCompletionsGenerator.swift in Sources */,
+				OBJ_77 /* Argument.swift in Sources */,
+				OBJ_78 /* ArgumentHelp.swift in Sources */,
+				OBJ_79 /* CompletionKind.swift in Sources */,
+				OBJ_80 /* Errors.swift in Sources */,
+				OBJ_81 /* Flag.swift in Sources */,
+				OBJ_82 /* NameSpecification.swift in Sources */,
+				OBJ_83 /* Option.swift in Sources */,
+				OBJ_84 /* OptionGroup.swift in Sources */,
+				OBJ_85 /* CommandConfiguration.swift in Sources */,
+				OBJ_86 /* EnumerableFlag.swift in Sources */,
+				OBJ_87 /* ExpressibleByArgument.swift in Sources */,
+				OBJ_88 /* ParsableArguments.swift in Sources */,
+				OBJ_89 /* ParsableArgumentsValidation.swift in Sources */,
+				OBJ_90 /* ParsableCommand.swift in Sources */,
+				OBJ_91 /* ArgumentDecoder.swift in Sources */,
+				OBJ_92 /* ArgumentDefinition.swift in Sources */,
+				OBJ_93 /* ArgumentSet.swift in Sources */,
+				OBJ_94 /* CommandParser.swift in Sources */,
+				OBJ_95 /* InputOrigin.swift in Sources */,
+				OBJ_96 /* Name.swift in Sources */,
+				OBJ_97 /* Parsed.swift in Sources */,
+				OBJ_98 /* ParsedValues.swift in Sources */,
+				OBJ_99 /* ParserError.swift in Sources */,
+				OBJ_100 /* SplitArguments.swift in Sources */,
+				OBJ_101 /* DumpHelpGenerator.swift in Sources */,
+				OBJ_102 /* HelpCommand.swift in Sources */,
+				OBJ_103 /* HelpGenerator.swift in Sources */,
+				OBJ_104 /* MessageInfo.swift in Sources */,
+				OBJ_105 /* UsageGenerator.swift in Sources */,
+				OBJ_106 /* CollectionExtensions.swift in Sources */,
+				OBJ_107 /* SequenceExtensions.swift in Sources */,
+				OBJ_108 /* StringExtensions.swift in Sources */,
+				OBJ_109 /* Tree.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "swift-argument-parser::ArgumentParserToolInfo" /* ArgumentParserToolInfo */;
+			targetProxy = A4FA5A7B27326F1D00C4DC2B /* PBXContainerItemProxy */;
+		};
+		OBJ_130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "swift-argument-parser::ArgumentParser" /* ArgumentParser */;
+			targetProxy = A4FA5A7A27326F1D00C4DC2B /* PBXContainerItemProxy */;
+		};
+		OBJ_131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "swift-argument-parser::ArgumentParserToolInfo" /* ArgumentParserToolInfo */;
+			targetProxy = A4FA5A7C27326F1D00C4DC2B /* PBXContainerItemProxy */;
+		};
+		OBJ_142 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "LightWeightCategorizer::LightWeightCategorizerTests" /* LightWeightCategorizerTests */;
+			targetProxy = A4FA5A8027326F1D00C4DC2B /* PBXContainerItemProxy */;
+		};
+		OBJ_152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "LightWeightCategorizer::LightWeightCategorizer" /* LightWeightCategorizer */;
+			targetProxy = A4FA5A7D27326F1D00C4DC2B /* PBXContainerItemProxy */;
+		};
+		OBJ_153 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "swift-argument-parser::ArgumentParser" /* ArgumentParser */;
+			targetProxy = A4FA5A7E27326F1D00C4DC2B /* PBXContainerItemProxy */;
+		};
+		OBJ_154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "swift-argument-parser::ArgumentParserToolInfo" /* ArgumentParserToolInfo */;
+			targetProxy = A4FA5A7F27326F1D00C4DC2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = LightWeightCategorizer.xcodeproj/ArgumentParserToolInfo_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ArgumentParserToolInfo;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = ArgumentParserToolInfo;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = LightWeightCategorizer.xcodeproj/ArgumentParserToolInfo_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ArgumentParserToolInfo;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = ArgumentParserToolInfo;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = LightWeightCategorizer.xcodeproj/LightWeightCategorizer_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = LightWeightCategorizer;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = LightWeightCategorizer.xcodeproj/LightWeightCategorizer_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = LightWeightCategorizer;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -package-description-version 5.5.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -package-description-version 5.5.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = LightWeightCategorizer.xcodeproj/LightWeightCategorizerTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = LightWeightCategorizerTests;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		OBJ_146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = LightWeightCategorizer.xcodeproj/LightWeightCategorizerTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = LightWeightCategorizerTests;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		OBJ_157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -package-description-version 5.5.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -package-description-version 5.5.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = LightWeightCategorizer.xcodeproj/ArgumentParser_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ArgumentParser;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = ArgumentParser;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = LightWeightCategorizer.xcodeproj/ArgumentParser_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ArgumentParser;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = ArgumentParser;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_114 /* Build configuration list for PBXNativeTarget "ArgumentParserToolInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_115 /* Debug */,
+				OBJ_116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_121 /* Build configuration list for PBXNativeTarget "LightWeightCategorizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_122 /* Debug */,
+				OBJ_123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_133 /* Build configuration list for PBXNativeTarget "LightWeightCategorizerPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_134 /* Debug */,
+				OBJ_135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_139 /* Build configuration list for PBXAggregateTarget "LightWeightCategorizerPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_140 /* Debug */,
+				OBJ_141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_144 /* Build configuration list for PBXNativeTarget "LightWeightCategorizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_145 /* Debug */,
+				OBJ_146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_156 /* Build configuration list for PBXNativeTarget "swift-argument-parserPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_157 /* Debug */,
+				OBJ_158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "LightWeightCategorizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_69 /* Build configuration list for PBXNativeTarget "ArgumentParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_70 /* Debug */,
+				OBJ_71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}

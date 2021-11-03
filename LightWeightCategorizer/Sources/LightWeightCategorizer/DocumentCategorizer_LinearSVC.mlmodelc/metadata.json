@@ -1,0 +1,63 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "shortDescription" : "Categorize an input document using LinearSVC",
+    "outputSchema" : [
+      {
+        "isOptional" : "0",
+        "formattedType" : "Int64",
+        "type" : "Int64",
+        "name" : "category",
+        "shortDescription" : "Category of the document amongst:- Zero, One, Two, Three, Four"
+      },
+      {
+        "isOptional" : "0",
+        "keyType" : "Int64",
+        "formattedType" : "Dictionary (Int64 → Double)",
+        "type" : "Dictionary",
+        "name" : "classProbability",
+        "shortDescription" : ""
+      }
+    ],
+    "modelParameters" : [
+
+    ],
+    "specificationVersion" : 1,
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "10.13",
+      "tvOS" : "11.0",
+      "watchOS" : "4.0",
+      "iOS" : "11.0",
+      "macCatalyst" : "11.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_treeEnsembleClassifier"
+    },
+    "inputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Double",
+        "formattedType" : "MultiArray (Double 19)",
+        "shortDescription" : "l2 normed sublinear TFIDF of document to be classified (See idf-meta.json to see vocabulary and idf values to use)",
+        "shape" : "[19]",
+        "name" : "input_document",
+        "type" : "MultiArray"
+      }
+    ],
+    "classLabels" : [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "generatedClassName" : "DocumentCategorizer_LinearSVC",
+    "userDefinedMetadata" : {
+      "com.github.apple.coremltools.version" : "5.0",
+      "com.github.apple.coremltools.source" : "scikit-learn==0.19.2"
+    },
+    "method" : "predict"
+  }
+]
